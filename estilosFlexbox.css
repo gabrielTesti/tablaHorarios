@@ -1,0 +1,110 @@
+*{
+    margin:0;
+}
+header{
+    width:100%;
+    background-color: rgb(190, 188, 188);
+    color:black;
+    text-align: center;
+    align-content: center;
+    height: 20vh;
+    border-bottom: 1px solid black;
+}
+.titulo{
+    font-size: 55px;
+    color: rgb(163, 9, 9);
+}
+
+.articulos{
+    background-color: rgb(190, 188, 188);
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    width:1050px;
+    height: 71vh;
+    font-size:20px;
+    
+}
+.articulos>article{
+    font-size: 17px;
+}
+article>div{
+    padding:18px;
+    text-align: center;
+    border:1px solid black;
+
+    
+}
+aside{
+    display: flex;
+    width: 20%;
+    background-color: rgb(131, 7, 7);
+    color: black; 
+    height: 71vh;
+    flex: 1;
+    
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.materias{
+    font-size: 20px;
+    text-align: center;
+    
+    margin:auto;
+    
+}
+.materias>div{
+    padding:18px;
+    letter-spacing: 1px;
+
+}
+body{
+    display: flex;
+    
+}
+.titulomaterias{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.titulogestionproyectos{
+    margin-top: 15px;
+}
+footer{
+    display: flex;
+    border-top:1px solid white;
+    background-color: rgb(190, 188, 188);
+    height: 56px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+
+.horarios{
+    background: rgb(131, 7, 7);
+}
+.lunes{
+    background: rgb(131, 7, 7);
+}
+.martes{
+    background: rgb(131, 7, 7);
+}
+.miercoles{
+    background: rgb(131, 7, 7);
+}
+.jueves{
+    background: rgb(131, 7, 7);
+}
+.viernes{
+    background: rgb(131, 7, 7);
+}

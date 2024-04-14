@@ -1,0 +1,46 @@
+
+body{
+    background-color:cadetblue;
+    font-family: sans-serif;
+   display: flex;
+    
+}
+header{
+    font-size: 20px;
+    text-align: center;
+    
+}
+.tabla{
+    width: 86%;
+    
+    
+    background: white;
+    border: 1px solid black;
+    height: 75vh;
+
+    display: grid;
+    grid-template-columns: repeat(6,17%);
+    grid-auto-rows: 60px;
+
+    
+}
+.tabla>div{
+    border: 1px solid black;
+}
+
+aside{
+    display: flex;
+    width:30%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+}
+.contenedor{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    
+    flex-direction: column;
+    flex-wrap: wrap;
+}
